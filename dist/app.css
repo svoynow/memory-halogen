@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 106px 106px 106px 106px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.card-image {
+  height: 96px;
+  width: 96px;
+  margin: 10px;
+}
+
+.message {
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 10px;
+}

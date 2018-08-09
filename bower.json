@@ -1,17 +1,15 @@
 {
   "private": true,
   "name": "purescript-halogen-template",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "output",
-    "dist"
-  ],
+  "ignore": ["**/.*", "node_modules", "bower_components", "output", "dist"],
   "dependencies": {
     "purescript-halogen": "^4.0.0",
     "purescript-prelude": "^4.1.0",
     "purescript-console": "^4.1.0",
-    "purescript-effect": "^2.0.0"
+    "purescript-effect": "^2.0.0",
+    "purescript-random": "^4.0.0",
+    "purescript-arrays": "^5.0.0",
+    "purescript-ordered-collections": "^1.0.0",
+    "purescript-foldable-traversable": "^4.0.0"
   }
 }
